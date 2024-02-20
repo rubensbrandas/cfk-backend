@@ -13,16 +13,16 @@ const waitlistSchema = mongoose.Schema(
     phoneNum: {
       type: String,
       required: false,
-      default: "Phone number",
+      default: "3",
     },
     email: {
       type: String,
-      default: "email address",
+      default: "3",
       required: true,
     },
     name: {
       type: String,
-      default: "Name ",
+      default: "3",
       required: true,
     },
     group: {
