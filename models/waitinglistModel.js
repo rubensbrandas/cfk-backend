@@ -4,25 +4,25 @@ const waitlistSchema = mongoose.Schema(
   {
     course: {
       type: String,
-      required: [false, "Please insert a day"],
+      required: [false, "Course not found."],
     },
     zipcode: {
       type: String,
-      required: [false, "Please insert a day"],
+      required: [false, "Please insert a Zipcode"],
     },
     phoneNum: {
       type: String,
       required: false,
-      default: "3",
+      default: "(333)333-3333",
     },
     email: {
       type: String,
-      default: "3",
+      default: "email@email.com",
       required: true,
     },
     name: {
       type: String,
-      default: "3",
+      default: "user Name",
       required: true,
     },
     group: {
